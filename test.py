@@ -1,5 +1,3 @@
-
-from sklearn.neighbors import KNeighborsClassifier
 from deepBeliefNetworkMaster.dbn import SupervisedDBNRegression
 import numpy as np
 from sklearn import metrics
