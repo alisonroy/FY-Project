@@ -54,7 +54,8 @@ print('Arousal Mean Squared Error: ' +str(metrics.mean_squared_error(y_test1, ar
 print('Arousal r^2: ' +str(metrics.r2_score(y_test1, arousal_val))+'\n')
 
 
-
+print(arousal_val[0])
+print(predicted_val[0])
 if arousal_val[0]<5 and predicted_val[0]>0:
     print("Emotion : Relaxed")
 elif arousal_val[0]>5 and predicted_val[0]>0:
